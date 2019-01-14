@@ -3,7 +3,7 @@
 # Here's some new strange stuff, remember type it exactly.
 
 # 简单的输出
-days = "Mon Tue Wed Thu Fri Sat Sun
+days = "Mon Tue Wed Thu Fri Sat Sun"
 # 加入\n 表示转义字符
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
