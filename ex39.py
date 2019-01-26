@@ -1,5 +1,6 @@
 #coding:utf-8
 
+# 定义字典，一个冒号，一个逗号的形式
 # create a mapping of to abbreviation
 states = {
 	'Oregon': 'OR',
@@ -9,6 +10,7 @@ states = {
 	'Michigan': 'MI'
 }
 
+# 定义字典，一个冒号，一个逗号的形式
 # create a basic set of states and some cities in then
 cities = {
 	'CA': 'San Francisco',
@@ -16,21 +18,25 @@ cities = {
 	'FL': 'Jacksnville'
 }
 
+# 字典的另外一种定义方法
 # add some more cities
 cities['NY'] = 'New York'
 cities['OR'] = 'Portland'
 
 # print out some cities
 print '-' * 10
+# 最基本查找对应1
 print "NY State has: ", cities['NY']
-print "OR State has: ", 
+print "OR State has: ", cities['OR']
 
 # print some states
 print '-' * 10
+# 最基本查找对应2
 print "Michigan's abbreviation is: ",states['Michigan']
 print "Florida's abbreviation is: ", states['Florida']
 
-# do it by uesing the state then cities dictprint '-' * 10
+# do it by uesing the state then cities dict
+print '-' * 10
 print "Michigan has: ", cities[states['Michigan']]
 print "Florida has: " , cities[states['Florida']]
 
