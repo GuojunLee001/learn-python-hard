@@ -12,5 +12,6 @@ def add(x, y):
 add_function(2, 3)
 add(3, 7)
 add(x = 3, y = 7)
+add(x = y =3, y=7)
 
 # 注意：少使用全局变量、代码尽可能简短运行高效
