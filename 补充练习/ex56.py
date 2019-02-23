@@ -28,3 +28,4 @@ def foo(x, y ,z ,*arg, **kargs):
 foo(1, 2, 3)
 foo(1, 2, 3, 4, 5)
 foo(1, 2, 3, 4, 5, a = 'lgsir')
+foo(1, 2, 3, 4, 5, B, a = 'lgsiir')
