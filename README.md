@@ -1,2 +1,2 @@
 # learn-python-hard
-Learn python again
+Learn python hard!
